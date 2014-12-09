@@ -19,6 +19,7 @@ The data used in this project are the NEI records on PM2.5 for the years 1999, 2
 The zip file contains two data sets:
 
 1. "summarySCC_PM25.rds" - data frame with PM2.5 data organized by the following variables:
+
         * fips - A five-digit number (represented as a string) indicating the U.S. county
         * SCC - The name of the source as indicated by a digit string (see source code classification table)
         * Pollutant - A string indicating the pollutant
