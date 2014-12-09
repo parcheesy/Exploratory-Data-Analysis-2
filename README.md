@@ -17,6 +17,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
 The data used in this project are the NEI records on PM2.5 for the years 1999, 2002, 2005, and 2008. They can be downloaded at: https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip
 
 The zip file contains two data sets:
+
 1. "summarySCC_PM25.rds" - data frame with PM2.5 data organized by the following variables:
         * fips - A five-digit number (represented as a string) indicating the U.S. county
         * SCC - The name of the source as indicated by a digit string (see source code classification table)
@@ -24,6 +25,7 @@ The zip file contains two data sets:
         * Emissions - Amount of PM2.5 emitted, in tons
         * type - The type of source (point, non-point, on-road, or non-road)
         * year - The year of emissions recorded
+
 2. "Source_Classification_Code.rds" - a table providing a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific. 
 
 ### Contents of Repository
